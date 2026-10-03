@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guía de estudio · Introducción a la Psicología</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%235b2a86'/%3E%3Ctext x='50' y='66' font-family='Arial' font-weight='800' font-size='48' text-anchor='middle' fill='%23fff'%3E%CE%A8%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<main class="page">
+  <header class="header">
+    <div class="eyebrow">Capítulo 1 · Guía de estudio</div>
+    <h1>Introducción a la Psicología</h1>
+  </header>
+
+  <nav class="tabs" id="tabs" aria-label="Módulos"></nav>
+
+  <h2 class="section-title first">Mapa mental</h2>
+  <p class="lead">Toque una rama para ver su detalle.</p>
+  <div class="panel split">
+    <div class="map-tree">
+      <div class="map-center" id="map-center"></div>
+      <div class="map-trunk" id="map-branches"></div>
+    </div>
+    <div class="map-detail" id="map-detail"></div>
+  </div>
+
+  <section id="m2-only" hidden>
+    <h2 class="section-title">Las cinco perspectivas</h2>
+    <p class="lead">Recórralas una por una con las flechas o toque una pestaña.</p>
+    <div class="ptabs" id="ptabs"></div>
+    <div class="panel pgrid" id="persp"></div>
+
+    <h2 class="section-title">Compare las perspectivas</h2>
+    <p class="lead">Elija una situación y vea cómo la explicaría cada perspectiva. Toque una columna para destacarla.</p>
+    <div class="scenes" id="scenes"></div>
+    <div class="panel lens-grid" id="lens"></div>
+  </section>
+
+  <h2 class="section-title">Mnemotecnia</h2>
+  <p class="mn-title" id="mn-title"></p>
+  <div class="tiles" id="tiles"></div>
+  <p class="mn-tip" id="mn-tip"></p>
+
+  <h2 class="section-title flush">Resumen y consejos</h2>
+  <div class="panel sum-grid">
+    <div class="sum-main"><div class="label">Lo esencial</div><div id="points"></div></div>
+    <div class="sum-tips"><div class="label on-dark">Para recordar</div><div id="tips"></div></div>
+  </div>
+
+  <h2 class="section-title">Tarjetas de repaso</h2>
+  <p class="lead">Toque una tarjeta para ver la respuesta.</p>
+  <div class="cards" id="cards"></div>
+
+  <button class="next-mod" id="next-mod" data-action="next-mod" hidden>
+    <span><small>Siguiente módulo</small><strong id="next-name"></strong></span>
+    <span class="arrow">→</span>
+  </button>
+
+  <section id="exam" hidden>
+    <div class="exam-rule"></div>
+    <h2 class="exam-title">Examen corto del capítulo</h2>
+    <p class="lead">15 preguntas de selección múltiple de los cuatro módulos. Al final verá su puntuación y las áreas que debe repasar.</p>
+    <div id="exam-body"></div>
+  </section>
+</main>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
